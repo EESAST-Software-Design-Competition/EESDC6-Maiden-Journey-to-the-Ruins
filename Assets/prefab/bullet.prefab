@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3490936227237733300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3490936227237733301}
+  - component: {fileID: 3490936227237733298}
+  m_Layer: 0
+  m_Name: bullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3490936227237733301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490936227237733300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00065909885, y: 0.16099006, z: -0.019055618}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3490936227237733298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490936227237733300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e41ff2ba5ed7d4fa5ec45b306ad9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerData: {fileID: 11400000, guid: 45f52ec5cc1dc804783791faef5063f7, type: 2}
+  FireBall: {fileID: 8812119428986506034, guid: ebcc8abb7be5b38429fc80cc1a509a17, type: 3}
+  Arrow_UI: {fileID: 631308328477100961, guid: cef83c180cdb19548a94bd0c87d09d3d, type: 3}
+  Arrow: {fileID: 0}
+  Player: {fileID: 0}
+  ShotAngle: 0
+  BlackScreen: {fileID: 0}
+  ShootingTime: 0
+  ShootingCDTimer: 0
+  mousePos1: {x: 0, y: 0, z: 0}
+  mousePos2: {x: 0, y: 0, z: 0}
+  swordimpactDirection: 0
+  MeteoroliteAngle: 0

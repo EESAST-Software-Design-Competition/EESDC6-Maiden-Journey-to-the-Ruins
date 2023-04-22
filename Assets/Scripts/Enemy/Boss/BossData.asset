@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c6a13bbc6e11e4ebb61af3fda2cd08, type: 3}
+  m_Name: BossData
+  m_EditorClassIdentifier: 
+  Healthmax: 18000
+  RangeAttackDamage: 280
+  SpinChargeDamage: 20
+  SuperAttackDamage: 480
